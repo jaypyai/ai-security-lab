@@ -3,6 +3,16 @@
 My first hands-on AI security project: a prompt-injection playground. Chat with a
 deliberately vulnerable AI agent, break it three ways, then feel what defenses change.
 
+## Screenshots
+
+| Level 1: Direct injection | Level 2: Trojan email |
+|---|---|
+| ![Level 1 — the agent leaks the vault code after a direct prompt injection](screenshots/02-level1-pwned.jpg) | ![Level 2 — a hidden instruction inside an email hijacks the agent](screenshots/03-level2-trojan-email.jpg) |
+
+| Level 3: Shields Up (defended) |
+|---|
+| ![Level 3 — with defenses on, the same attack is refused](screenshots/04-level3-defended.jpg) |
+
 ## The 3 levels
 
 1. **Direct Hit** — trick the agent into revealing a secret vault code just by talking
